@@ -1,23 +1,34 @@
- Fake Profile Detection using Machine Learning and NLP
-📌 Overview
-With the surge in online social media usage, fake profiles have become a significant concern. These profiles can spread misinformation, perform scams, and manipulate public opinion. This project presents a machine learning-based system to detect fake social media profiles using user data attributes such as followers, following, posts, and profile completeness.
+# 🕵️‍♂️ Fake Profile Detection using Machine Learning & NLP
 
-🎯 Objectives
-Develop a supervised machine learning model to classify profiles as real or fake.
+## 📄 Overview
+As social media platforms continue to grow, so does the prevalence of fake profiles—used for spreading misinformation, scams, and manipulating public sentiment. This project introduces a machine learning-based system to identify fake profiles using behavioral and profile-based data.
 
-Engineer features that best capture suspicious behaviors.
+The goal is to accurately classify social media accounts as real or fake using supervised learning models, while providing a simple and interactive interface for real-time predictions.
 
-Build a user-friendly web interface for real-time profile testing.
+---
 
-Evaluate model performance on accuracy, precision, recall, and F1-score.
+## 🎯 Objectives
+- Train a machine learning model to classify profiles as either real or fake.
+- Extract and engineer meaningful features that highlight suspicious account behavior.
+- Build an intuitive web-based interface using Streamlit for user interaction.
+- Evaluate model performance using accuracy, precision, recall, and F1-score.
 
-🛠️ Tech Stack
-Tool/Library        	Purpose
-Python	              Core programming language
-Scikit-learn	        Machine learning algorithms
-Pandas, NumPy       	Data handling and processing
-Matplotlib, Seaborn	  Visualization
-Google Colab	        Model development environment
+---
+
+## 🛠️ Tech Stack
+
+| Tool / Library        | Purpose                               |
+|-----------------------|----------------------------------------|
+| Python                | Core development language              |
+| Scikit-learn          | Machine learning algorithms            |
+| Pandas, NumPy         | Data processing and analysis           |
+| Matplotlib, Seaborn   | Data visualization                     |
+| Google Colab          | Development and experimentation        |
+| Streamlit             | Web-based frontend for live testing    |
+
+---
+
+## 📁 Project Structure
 
 
 Fake-Profile-Detection/
